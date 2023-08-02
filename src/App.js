@@ -97,7 +97,7 @@ const Chandrayaan3 = () => {
           onChange={(e) => setCommandInput(e.target.value)}
         />
       </label>
-      <button onClick={handleExecute}>Execute Command</button>
+      <button onClick={handleExecute}>Command</button>
     </div>
   );
 };
